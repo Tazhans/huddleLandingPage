@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Playfair:ital@1&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;500&family=Playfair:ital@1&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-image: url(/images/bg-desktop.svg);
+  background-size: contain;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.image_section .logo {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 6%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.image_section .mockup {
+  max-width: 650px;
+  max-height: 600px;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+  padding-bottom: 5%;
+}
+
+.text_section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.text_section h1 {
+  color: #fff;
+  font-size: 37px;
+  font-family: "Poppins", sans-serif;
+  padding-right: 15%;
+}
+.text_section p {
+  color: #f0ecec;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1;
+  line-height: 1.5;
+  margin-top: 3%;
+  padding-right: 7%;
+}
+.text_section button {
+  width: 185px;
+  height: 50px;
+  color: hsl(257, 40%, 49%);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 1px 1px #000;
+}
+
+/*# sourceMappingURL=style.css.map */
