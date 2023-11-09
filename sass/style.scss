@@ -23,6 +23,7 @@ main {
     background-image: url(/images/bg-desktop.svg);
     background-size: contain;
     background-color: $violet;
+    background-repeat: no-repeat;
 }
 
 .image_section {
@@ -51,6 +52,7 @@ main {
     h1 {
         color: #fff;
         font-size: 37px;
+        font-weight: 600;
         font-family: "Poppins", sans-serif;
         padding-right: 15%;
     }
@@ -75,9 +77,34 @@ main {
         font-weight: 500;
         letter-spacing: 1;
         padding: 10px;
-        margin-top: 15px;
+        margin-top: 17px;
         border: none;
         border-radius: 25px;
-        box-shadow: 2px 2px 1px 1px #000;
+        box-shadow: 2px 1px 20px #161616;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        right: 5%;
+
+        i {
+            width: 50px;
+            height: 60px;
+            color: #fff;
+
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .main {
+        
+    }
+
+    .image_section {
+        .mockup {
+            width: 300px;
+        }
     }
 }
